@@ -6,9 +6,9 @@ import {Link} from 'react-router-dom'
 
 function App() {
   return (
-<div style={{height: '300px', position: 'relative'}}>
+<div style={{height: '100vh', position: 'relative'}}>
     <Layout  fixedHeader>
-        <Header style={{background: 'rgb(45, 48, 55)'}} className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+        <Header style={{background: 'rgb(45, 48, 55)'}} className="header-color" title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>Portfolio</strong></span>}>
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
