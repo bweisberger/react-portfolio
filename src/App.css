@@ -2,35 +2,51 @@
   background-color: rgb(45, 48, 55);
 }
 
+.nav-link{
+  color: white;
+}
+
 .hero-img-container{
-  margin: 0 auto;
-  width: 25vw;
-  height: 25vw;
-  border-radius: 50%;
-  border: 5px solid rgba(0, 0, 0, .8);
+  position: fixed;
+  left: 50%;
+  width: 50%;
+  bottom: -1%;
+  height: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-img{
   width: auto;
-  height: 200%;
+  height: 100%;
+  z-index: -1;
+  /* height: 200%;
   margin-top: -20%;
-  margin-left: -112%;
+  margin-left: -112%; */
   /* padding-top: 5em; */
 }
 
 .hero-text{
-  background: black;
-  opacity: 0.8;
-  margin: 1vh auto;
-  border-radius: 10px;
-  width: 75%;
+  background: rgba(0, 0, 0, .5);
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  z-index: 1;
+  width: 70%;
 }
 
 .hero-text h1{
-  font-size: 66px;
+  font-size: 75px;
   font-weight: bold;
-  color: white;
+  color: turquoise;
+}
+
+.hero-text h2{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+  color: turquoise;
 }
 
 .hero-text hr{
@@ -59,7 +75,8 @@
 }
 
 .landing-grid{
-  background-color: rgb(250, 224, 79);
+  /* background-color: turquoise; */
+  background: linear-gradient(120deg, rgb(149, 154, 153) 0%, rgb(43, 48, 48) 100%);
   position: fixed;
   top: 0;
   left: 0;
@@ -71,5 +88,85 @@
 
 .projects-grid{
   display: flex;
-  
+  background: linear-gradient(120deg, rgb(149, 154, 153) 0%, rgb(43, 48, 48) 100%);
 }
+
+.project-tabs{
+  border: none;
+  color: white;
+}
+
+.content-body{
+  background: linear-gradient(120deg, rgb(149, 154, 153) 0%, rgb(43, 48, 48) 100%);
+  overflow: scroll;
+}
+
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  font-family: 'Anton', sans-serif
+}
+
+.contact-grid{
+  text-align: center;
+  width: 80%;
+  height: 550px;
+  color: black;
+  background: white;
+  /* border: 1px red solid; */
+  margin-bottom: 20px;
+}
+
+.contact-header{
+  /* text-align: left; */
+}
+
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr{
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+  /* text-align: left; */
+}
+
+.contact-list i{
+  font-size: 50px;  
+  padding-right: 3rem;
+}
+
+.contact-info{
+  width: 320px;
+}
+
+/* Color Theme Swatches in Hex */
+.Grey-tie-on-dark-background-1-hex { color: #C7D1D9; }
+.Grey-tie-on-dark-background-2-hex { color: #313A40; }
+.Grey-tie-on-dark-background-3-hex { color: #72828C; }
+.Grey-tie-on-dark-background-4-hex { color: #5D6A73; }
+.Grey-tie-on-dark-background-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.Grey-tie-on-dark-background-1-rgba { color: rgba(199, 208, 216, 1); }
+.Grey-tie-on-dark-background-2-rgba { color: rgba(49, 58, 63, 1); }
+.Grey-tie-on-dark-background-3-rgba { color: rgba(113, 130, 140, 1); }
+.Grey-tie-on-dark-background-4-rgba { color: rgba(92, 106, 114, 1); }
+.Grey-tie-on-dark-background-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Grey-tie-on-dark-background-1-hsla { color: hsla(208, 18, 81, 1); }
+.Grey-tie-on-dark-background-2-hsla { color: hsla(202, 12, 22, 1); }
+.Grey-tie-on-dark-background-3-hsla { color: hsla(202, 10, 49, 1); }
+.Grey-tie-on-dark-background-4-hsla { color: hsla(202, 10, 40, 1); }
+.Grey-tie-on-dark-background-5-hsla { color: hsla(0, 0, 5, 1); }

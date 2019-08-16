@@ -7,14 +7,9 @@ class Landing extends Component{
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
                     <Cell col={12}>
-                        <div className="hero-img-container">
-                            <img className="hero-img"
-                            src="images/DSC03328.JPG"
-                            alt="Bill Weisberger"
-                            />
-                        </div>
                         <div className="hero-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Bill Weisberger</h1>
+                            <h2>Full Stack Web Developer</h2>
                             <hr/>
                             <p>HTML5/CSS3 | Bootstrap | Javascript | React | NodeJS | MongoDB | Python | SQL</p>
                             <div className="social-media-links">
@@ -30,6 +25,13 @@ class Landing extends Component{
 
                             </div>
                         </div>
+                        <div className="hero-img-container">
+                            <img className="hero-img"
+                            src="images/Weisberger.png"
+                            alt="Bill Weisberger"
+                            />
+                        </div>
+                        
                     
                     </Cell>
                 </Grid>
