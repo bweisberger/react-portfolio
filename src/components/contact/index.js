@@ -11,7 +11,7 @@ class Contact extends Component{
                         <img
                         src="https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-15-512.png"
                         alt="avatar"
-                        style={{height: '250px', background: 'turquoise'}}
+                        style={{marginBottom: '-2%', height: '250px', background: 'rgb(70, 81, 176)'}}
                         />
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>I'm always working on something, and always looking for more projects. Hit me up!</p>
                     </Cell>

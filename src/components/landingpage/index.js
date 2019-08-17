@@ -6,12 +6,14 @@ class Landing extends Component{
         return(
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
-                    <Cell col={12}>
+                    <Cell col={7}>
                         <div className="hero-text">
-                            <h1>Bill Weisberger</h1>
-                            <h2>Full Stack Web Developer</h2>
+                            <div className='name-div'>
+                                <h1>Bill Weisberger</h1>
+                            </div>
+                            <h2>FULL STACK WEB DEVELOPER</h2>
+                            <p>HTML5/CSS3 | Javascript | React | NodeJS | MongoDB | Python | SQL</p>
                             <hr/>
-                            <p>HTML5/CSS3 | Bootstrap | Javascript | React | NodeJS | MongoDB | Python | SQL</p>
                             <div className="social-media-links">
                                 {/* linkedin */}
                                 <a href="linkedin.com/in/billweisberger" rel="noopener noreferrer" target="_blank">
@@ -24,15 +26,16 @@ class Landing extends Component{
                                 </a>
 
                             </div>
-                        </div>
+                        </div>                      
+                    
+                    </Cell>
+                    <Cell col={5}>
                         <div className="hero-img-container">
                             <img className="hero-img"
                             src="images/Weisberger.png"
                             alt="Bill Weisberger"
                             />
                         </div>
-                        
-                    
                     </Cell>
                 </Grid>
             </div>

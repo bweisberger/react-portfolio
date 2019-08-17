@@ -1,5 +1,8 @@
+body{
+  background: linear-gradient(0deg, rgb(43, 48, 48) 0%, rgb(199, 206, 205) 100%);
+}
 .header-color{
-  background-color: rgb(45, 48, 55);
+  /* background-color: rgb(45, 48, 55); */
 }
 
 .nav-link{
@@ -7,76 +10,95 @@
 }
 
 .hero-img-container{
-  position: fixed;
-  left: 50%;
-  width: 50%;
-  bottom: -1%;
   height: 100%;
-  overflow: hidden;
+  width: 100%;
+  /* border: 1px red solid; */
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
+  overflow: hidden;
 }
 
 .hero-img{
-  width: auto;
-  height: 100%;
-  z-index: -1;
-  /* height: 200%;
-  margin-top: -20%;
-  margin-left: -112%; */
-  /* padding-top: 5em; */
+  /* max-width: auto; */
+  max-height: 90vh;
+  margin-top: 10vh;
+  /* z-index: -20; */
+  /* object-fit: contain; */
+}
+
+.name-div{
+  background: rgba(70, 81, 176, 0.52);
+  width: 400px;
+  /* text-align: center; */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hero-text{
-  background: rgba(0, 0, 0, .5);
-  position: absolute;
-  left: 10%;
-  top: 20%;
-  z-index: 1;
-  width: 70%;
+  text-align: left;
+  padding: 1rem;
+  /* background: rgba(0, 0, 0, .2); */
+  /* width: 100%; */
+  margin-top: 7rem;
+  margin-right: 0;
+  /* padding-left: 2rem; */
 }
 
 .hero-text h1{
-  font-size: 75px;
-  font-weight: bold;
-  color: turquoise;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  padding-left: 1rem;
 }
 
 .hero-text h2{
-  font-size: 50px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-family: 'Oxygen', sans-serif;
-  color: turquoise;
+  text-transform: capitalize;
+  margin: 0;
+  /* font-weight: bold; */
+  /* font-family: 'Oxygen', sans-serif; */
+  color: rgb(70, 81, 176);
 }
 
 .hero-text hr{
   width: 50%;
-  margin: auto;
-  border-top: 5px dotted white;
+  /* margin: auto; */
+  border-top: 1px solid white;
+  padding-bottom: 2rem;
 }
 
 .hero-text p{
   color: white;
-  font-size: 20px;
-  padding: 1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: left;
+  /* padding: 1em; */
 }
 
 .social-media-links{
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: start;
   width: 50%;
-  margin: auto;
+  padding: 0;
+  margin: 0;
+  /* margin: aut; */
 }
 
 .social-media-links i{
   color: white;
-  font-size: 5em;
+  font-size: 2em;
   padding: 8px;
 }
 
 .landing-grid{
-  /* background-color: turquoise; */
-  background: linear-gradient(120deg, rgb(149, 154, 153) 0%, rgb(43, 48, 48) 100%);
+  background: linear-gradient(0deg, rgb(43, 48, 48) 0%, rgb(199, 206, 205) 100%);
   position: fixed;
   top: 0;
   left: 0;
@@ -84,11 +106,12 @@
   height: 100%;
   text-align: center;
   margin: 20px;
+  overflow: scroll;
 }
 
 .projects-grid{
   display: flex;
-  background: linear-gradient(120deg, rgb(149, 154, 153) 0%, rgb(43, 48, 48) 100%);
+  /* background: linear-gradient(0deg, rgb(43, 48, 48) 0%, rgb(199, 206, 205) 100%); */
 }
 
 .project-tabs{
@@ -97,7 +120,7 @@
 }
 
 .content-body{
-  background: linear-gradient(120deg, rgb(149, 154, 153) 0%, rgb(43, 48, 48) 100%);
+  background: linear-gradient(0deg, rgb(43, 48, 48) 0%, rgb(199, 206, 205) 100%);
   overflow: scroll;
 }
 
@@ -148,6 +171,13 @@
 
 .contact-info{
   width: 320px;
+}
+
+/* Resume Page CSS */
+.resume-right-col{
+  background: #27221F;
+  color: white;
+  padding: 2em;
 }
 
 /* Color Theme Swatches in Hex */
