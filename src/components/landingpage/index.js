@@ -18,7 +18,7 @@ class Landing extends Component{
                                         <span>PROBLEM SOLVER</span>
                                         <span>FULL STACK WEB DEVELOPER</span>
                                         <span>SCIENCE TEACHER</span>
-                                        <span></span>
+                                        <span>MOVIE BUFF</span>
                                     </TextLoop>    
                                 </h2>
                             </div>

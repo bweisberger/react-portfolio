@@ -193,6 +193,27 @@ body{
   border: 1px red solid;
 }
 
+.aboutme-intro{
+  text-align: center;
+}
+
+.aboutme-img-container{
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 0 0 60%;
+  border: 
+}
+
+.aboutme-img{
+  width: 300%;
+  height: auto;
+  /* position: fixed; */
+  margin-left: -280px;
+  margin-top: -65px;
+}
+
 /* Color Theme Swatches in Hex */
 .Grey-tie-on-dark-background-1-hex { color: #C7D1D9; }
 .Grey-tie-on-dark-background-2-hex { color: #313A40; }
