@@ -13,7 +13,7 @@ function App() {
                 <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/aboutme">About me</Link>
-                <a style={{color: 'white'}} href={'/Bill_Weisberger_Resume.pdf'}>Resume</a>
+                <a style={{color: 'white'}} href={'react-portfolio/Bill_Weisberger_Resume.pdf'}>Resume</a>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
@@ -22,7 +22,7 @@ function App() {
                 <Link style={{color: 'white'}} to="/">Home</Link>
                 <Link style={{color: 'white'}} to="/projects">Projects</Link>
                 <Link style={{color: 'white'}} to="/aboutme">About me</Link>
-                <a style={{color: 'white'}} href={'/Bill_Weisberger_Resume.pdf'}>Resume</a>
+                <a style={{color: 'white'}} href={'react-portfolio/Bill_Weisberger_Resume.pdf'}>Resume</a>
                 <Link style={{color: 'white'}} to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
