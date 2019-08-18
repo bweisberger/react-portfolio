@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bweisberger.github.io",
+  "homepage": "https://bweisberger.github.io/react-portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
