@@ -5,9 +5,6 @@ body{
 .home-div{
   overflow: scroll;
 }
-.header-color{
-  /* background-color: rgb(45, 48, 55); */
-}
 
 .nav-link{
   color: white;
@@ -148,10 +145,6 @@ body{
   background: white;
   /* border: 1px red solid; */
   margin-bottom: 20px;
-}
-
-.contact-header{
-  /* text-align: left; */
 }
 
 .contact-grid h2{
