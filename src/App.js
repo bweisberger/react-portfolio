@@ -17,7 +17,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer style={{background: 'rgb(92, 106, 114)', color: 'white', borderColor: 'rgb(92, 106, 114)'}}title="Menu">
+        <Drawer style={{background: 'linear-gradient(0deg, rgba(100, 100, 100, .95)0%, rgba(70, 81, 176, .95) 100%)', color: 'white', borderColor: 'rgb(92, 106, 114)'}}title="Menu">
             <Navigation>
                 <Link style={{color: 'white'}} to="/">Home</Link>
                 <Link style={{color: 'white'}} to="/projects">Projects</Link>

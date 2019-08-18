@@ -26,17 +26,18 @@ body{
   /* object-fit: contain; */
 }
 
-.name-div{
+.full-stack-div{
   background: rgba(70, 81, 176, 0.52);
   width: 400px;
-  /* text-align: center; */
-  margin-top: 2rem;
+  margin-top: 0;
+  margin-left: 0;
   margin-bottom: 2rem;
+  width: 280px;
 }
 
 .hero-text{
   text-align: left;
-  padding: 1rem;
+  padding: 0;
   /* background: rgba(0, 0, 0, .2); */
   /* width: 100%; */
   margin-top: 7rem;
@@ -47,22 +48,23 @@ body{
 .hero-text h1{
   font-size: 50px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 300;
-  color: white;
+  font-weight: 400;
+  color: rgb(70, 81, 176);
   margin-bottom: 0;
   letter-spacing: 2px;
-  padding-left: 1rem;
+  padding-left: 0;
 }
 
 .hero-text h2{
-  font-size: 18px;
+  font-size: calc(16px);
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-transform: capitalize;
-  margin: 0;
+  color: white;
+  margin-left: 8px;
+  margin-top: 0;
   /* font-weight: bold; */
   /* font-family: 'Oxygen', sans-serif; */
-  color: rgb(70, 81, 176);
 }
 
 .hero-text hr{
@@ -85,7 +87,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  width: 50%;
+  width: 10%;
   padding: 0;
   margin: 0;
   /* margin: aut; */
@@ -178,6 +180,17 @@ body{
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+.aboutme-grid{
+  font-family: 'Lato', sans-serif;
+}
+
+.aboutme-grid .left-col{
+  border: 1px red solid;
+}
+.aboutme-grid .right-col{
+  border: 1px red solid;
 }
 
 /* Color Theme Swatches in Hex */
